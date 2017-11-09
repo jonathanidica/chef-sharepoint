@@ -1,6 +1,6 @@
 #
 # Cookbook:: sharepoint
-# Spec:: default
+# Spec:: ad_install
 #
 # Copyright:: 2017, Jonathan Idica
 #
@@ -18,7 +18,7 @@
 
 require 'spec_helper'
 
-describe 'sharepoint::default' do
+describe 'chef-sharepoint::ad_install' do
   context 'When all attributes are default, on an Ubuntu 16.04' do
     let(:chef_run) do
       # for a complete list of available platforms and versions see:
